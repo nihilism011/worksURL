@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3349/works_url?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Seoul
+    username: root
+    password: 123qwe!@#
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: false
+      open-in-view: true
+  devtools:
+    restart:
+      enabled: true
